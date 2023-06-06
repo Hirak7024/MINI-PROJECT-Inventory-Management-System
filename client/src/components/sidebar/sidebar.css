@@ -1,0 +1,31 @@
+.sideBarContainer{
+    background-color: rgb(16,21,64);
+    height: calc(100vh - 70px);
+    width: 20vw;
+    position: relative;
+    top: 70px;
+    left: 0px;
+    padding: 30px;
+}
+.sideBarList{
+    list-style: none;
+}
+.sideBarListItems{
+    margin: 30px 0px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+.sideBarListItem:hover{
+    text-decoration: underline;
+    color: rgb(197, 193, 193);
+}
+.sideBarListItems span{
+    margin-left: 10px;
+}
+.sideBarLinkItem{
+    color: white;
+    text-decoration: none;
+}

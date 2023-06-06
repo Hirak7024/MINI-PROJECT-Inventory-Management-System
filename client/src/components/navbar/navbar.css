@@ -1,0 +1,35 @@
+.navbarContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.leftBox{
+    margin-left: 20px;
+}
+.rightBox{
+    display: flex;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+
+}
+.adminName{
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 500;
+}

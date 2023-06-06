@@ -1,0 +1,20 @@
+.cardContainer{
+    margin: 20px;
+    width: 17vw;
+    height: 17vh;
+    background-color: white;
+    box-shadow: 0px 0px 15px 3px grey;
+    border-radius: 3px;
+    padding: 25px;
+    display: flex;
+    color: white;
+}
+.cardQuantity, .cardTitle{
+    font-size: 25px;
+    font-weight: 500;
+    /* color: blue; */
+}
+.icon{
+    font-size: 60px !important;
+    margin-right: 20px;
+}
